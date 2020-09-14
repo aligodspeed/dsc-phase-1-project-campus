@@ -1,95 +1,46 @@
-# Phase 1 Project
+Phase 1 Project
 
-## Introduction
 
-In this lesson, we review the guidelines for the Phase 1 Project.
+Overview:
 
-## Objectives
 
-You will be able to:
+Microsoft is one of the biggest tech companies in the world, and they are leader in many fields in technology. They have many rivals and they try not te be behind those rivals. One of the ways that they feel behind rivals is, film industries. Amazon and Apple both have their own film studios, and they make movies, or at least they buy movies from other producers and show them under their names. Although Microsoft is so behind those rivals in this particular topic, they want to start from the beginning. In this Project, I will help them to get some analysis which will help them to make descion Whether they make films or not.
 
-* Start your Phase 1 Project
-* Check that your project meets the requirements
-* Submit your project materials in Canvas
-* Prepare for your project review
+Bussines Problem: 
 
-## Project Overview
+Beacuse they are new in this industry, they don't have much information about past to use those to make decisions. Moreover , they need to know that what genres they need to start with to have a good and successful start. They are going to invset billions of dollars, and they need to have the best and the most accurate data to have the best investment. I am going to tell them the most rated and voted genre to start they journey in the industry.
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+Data:
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project-campus/master/awesome.gif)
+I will use some important and useful existing data from IMDB which provides the popularity and most reviewd movies to help them to make a better decision.
 
-All that remains in Phase 1 is to put our newfound data science skills to use with a project! This project will take an entire week to complete.
+Methods:
 
-### Business Problem
+With Python and some libraries such as Pandas, Numpy and Matplotlib, this project presents descriptive analysis over genres and rating.
 
-Microsoft sees all the big companies creating original video content, and they want to get in on the fun. They have decided to create a new movie studio, but the problem is they don’t know anything about creating movies. They have hired you to help them better understand the movie industry.
-Your team is charged with exploring what type of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+Results:
 
-### The Data
+Unlike what they think about a specific genre__Action__to make, Darama genre has the most rating over all other genres. This data extracted from over 146144 movies from 2010 to 2019, and the number of votes in this analysis was very important.
 
-In the folder `zippedData` are movie datasets from:
+Conclusion:
 
-* Box Office Mojo
-* IMDB
-* Rotten Tomatoes
-* TheMovieDB.org
+To have a better start on this film studio, they need to start with drama genre which has the most votes and the most rating(Documentary genre has the mosyt rating, but has the third lowest number of vote of top 10) to grab audience's attention acording to the analysis.
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+Next Steps:
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+They need have another analysis about drama genre to find the best data before start making movies. This analysis will help them to find the best director or actors and actresses.
 
-## Deliverables
+Repository Structure:
+├── zippedData
+├── Microsoft Film studio Project.ipynb
+├── CONTRIBUTING.md
+├── LICENSE.md
+└── Presentation1.pdf
+├── README.md
+├── 
+├── 
+├── 
+└── 
 
-There are three deliverables for this project:
 
-1. A **GitHub repository**
-2. A **Jupyter Notebook**
-3. A **non-technical presentation**
-
-Keep in mind that the audience for these deliverables is not only your teacher, but also potential employers. Employers will look at your project deliverables to evaluate multiple skills, including coding, modeling, communication, and domain knowledge. You will want to polish these as much as you can, both during the course and afterwards.
-
-We provide a few resources to help you understand what makes for good deliverables.
-- The rubric associated with this assignment
-- [A template for you to use, with an example for reference][].
-
-### GitHub Repository
-
-Your GitHub repository is the public-facing version of your project that your instructors and potential employers will see - make it as accessible as you can. At a minimum, it should contain all your project files and a README.md file that summarizes your project and helps visitors navigate the repository.
-
-### Jupyter Notebook
-
-Your Jupyter Notebook is the primary source of information about your analysis. At a minimum, it should contain or import all of the code used in your project and walk the reader through your project from start to finish. You may choose to use multiple Jupyter Notebooks in your project, but you should have one that provides a full project overview as a point of entry for visitors.
-
-### Non-Technical Presentation
-
-Your non-technical presentation is your opportunity to communicate clearly and concisely about your project and it's real-world relevance. The target audience should be people with limited technical knowledge who may be interested in leveraging your project. For Phase 1, these would be Microsoft executives interested in making decisions about movie development. We recommend using Google Slides, PowerPoint or Keynote to create your presentation slides.
-
-## Getting Started
-
-Please start by reviewing this document. If you have any questions, please ask your instructor ASAP.
-
-Start on this project by forking [the Phase 1 Project Repository][], cloning it locally, and working in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
-We also recommend you check out [the project template and example][]. You can use this template for your project repository and presentation.
-
-## Project Submission and Review
-
-Review [the Project Submission and Review guidance][] to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
-
-## Tips
-
-Ask for help from your peers or instructors early and often.
-
-[A template for you to use, with an example for reference]: https://github.com/learn-co-curriculum/dsc-project-template
-[Google Chrome Save to PDF instructions]: https://www.wikihow.com/Save-a-Web-Page-as-a-PDF-in-Google-Chrome
-[the Phase 1  Project Repository]: https://github.com/learn-co-curriculum/dsc-phase-1-project-campus
-[this project template and example]: https://github.com/learn-co-curriculum/dsc-project-template
-[the Project Submission and Review guidance]: https://github.com/learn-co-curriculum/dsc-project-submissions-campus
-# alipro1
+# phase_one_project
